@@ -1,0 +1,244 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Poppins';
+    line-height: 1.4;
+    color: #3a3a3a;
+    background-color: #f4f6f8;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.main-body{
+    background-color: white;
+    padding: 3em 2em;
+}
+
+
+.top-bar{
+    background-color: rgb(1, 146, 65);
+    width: 100%;
+    top: 0;
+    padding: 1em 0em 2em 0em;
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+.right{
+    float: right;
+}
+
+.top-bar span{
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0em 9em;
+}
+
+.top-bar span strong{
+    color: white;
+}
+
+.right a{
+    padding: 0em 0.5em;
+    transition: 0.3s;
+    color: white;
+    cursor: pointer;
+}
+
+.right a:hover{
+    color:rgba(1, 146, 64)!important;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.middle-bar{
+    width: 100%;
+    padding: 1em 7em;
+    vertical-align:middle;
+    background-color: white;
+}
+
+.logo{
+    width: 250px;
+    height: 83px;
+}
+
+.green{
+    background-color: rgb(1, 146, 65);
+    margin-right: .3em;
+    transition: 0.3s;
+}
+.red{
+    background-color: rgb(217, 34, 25);
+}
+
+.btn{
+    border-radius: 1.5px;
+    color: white!important;
+    font-size: 1.1em;
+    padding: .5em 1.5em;
+}
+.header-btns{
+    margin-top: 10px;
+}
+.green:hover{
+    background-color: rgba(1, 146, 64, 0.774);
+    transition: 0.3s;
+}
+
+
+nav{
+    border-top:1px solid #dee7f2;
+    border-bottom: 1px solid #dee7f2;
+    padding: 1em 3em;
+    font-size: 13px;
+    color: #66707f;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+
+}
+.dropbtn {
+    padding: 16px 20px;
+}
+
+.dropdown, .dropdown2{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    transition: 0.3s;
+}
+.dropdown2{
+    width: 100%;
+}
+
+.dropdown-content, .dropdown2-content{
+    margin-top: 14px;
+    display: none;
+    height: 0px;
+    position: absolute;
+    background-color: white;
+    min-width: 220px;
+    transition: 0.3s;
+}
+.dropdown2-content{
+    margin-top: -42px;
+}
+  
+.dropdown-content a, .dropdown2-content a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+    height:fit-content!important;
+    color:#3a3a3a;
+    transition: 0.3s;
+    text-transform: initial;
+    border-bottom: 1px solid rgba(222, 231, 242, 1);
+}
+  
+.dropdown-content a:hover, .dropdown2-content a:hover {
+    background-color: #f4f6f8;
+    color:#bd081b;
+    transition: 0.3s;
+}
+  
+.dropdown:hover .dropdown-content, .dropdown2:hover .dropdown2-content {
+    display: block;
+    height:fit-content!important;
+    transition: 0.3s;
+
+}
+.dropdown:hover{
+    color: #bd081b;
+    transition: 0.3s;
+}
+.dropdown2-content{
+    margin-left: 220px;
+}
+
+footer{
+    background-color: #222222;
+    color: #c3c3c3;
+    font-weight: 300;
+    padding: 6em;
+}
+
+footer h3{
+    color: white;
+}
+
+.menu-footer span{
+    line-height: 3em;
+    border-bottom: 1px solid #303030;
+    width: 100%;
+    display: inline-block;}
+
+.btn-footer{
+    width: 100%;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.facebook{background-color: #1963ae;}
+.twitter{background-color: #1da1f2;}
+.linkedin{background-color: #0274b3;}
+.google{background-color: #dc4a38;}
+.pinterest{background-color: #bd081b;}
+.youtube{background-color: #ff0000;}
+
+.bottom-bar{
+    background-color: #1a1a1a;   
+    padding: 1em 5em;
+    font-size: 0.8em;
+    font-weight: 100;
+    color: #999;
+}
+.margin{margin-top: 3em;}
+
+.images img{width: 150px;height: 150px;}
+
+.p-4 {padding: 1px!important;}
+
+.heading{
+    font-weight: 500; 
+    padding-bottom: .5em;
+    font-size: 24px;
+}
+
+.images{margin: 2em 0em;}
+
+p{
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+.side-bar a{
+    color:rgb(217, 34, 25);
+    line-height: 1.8;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.side-bar a:hover{
+    color:#009241;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.btn-top{
+    background-color: #bd081a93;
+    color: white;
+    right: 15px;
+    bottom: 15px;
+    position: fixed;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
